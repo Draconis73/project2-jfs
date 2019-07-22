@@ -34,8 +34,8 @@ public class ContactController {
 		
 	}
 	
-	@GetMapping("/{userid}")
-	public List<Contact> findAllContactsByUserid(@PathVariable("userid")Integer userid) {
+	@GetMapping("/{userId}")
+	public List<Contact> findAllContactsByUserid(@PathVariable("userId")Integer userid) {
 		List<Contact> contacts = null;
 		System.out.println("findAllContactsByUserid: " + userid);
 		contacts = contactService.findAllContactsByUserid(userid);

@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+spring:
+  datasource:    username: martis73
+    password: Ultimate1!
+    url: jdbc:oracle:thin:@saradatabase.cdjvdcjft8ho.us-east-1.rds.amazonaws.com:1521:ORCL
+    
+    
+    
+
+    
